@@ -35,6 +35,10 @@ if __name__ == '__main__':
     plt.xlabel("Gender")
     plt.ylabel("Customers")
     plt.show()
+    
+    corrMatrix = data.corr()
+    sns.heatmap(corrMatrix, annot=True)
+    plt.show()
 
     # The tenure as it relates to churn -
     churn = data.Churn
