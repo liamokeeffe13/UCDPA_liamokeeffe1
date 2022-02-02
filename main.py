@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 import seaborn as sns
+import numpy as np
 
 
 def is_customer_streaming(cu_id, customer_by_streaming_movies_dict, customer_by_streaming_tv_dict):
