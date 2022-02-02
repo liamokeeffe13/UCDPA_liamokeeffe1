@@ -11,7 +11,6 @@ def is_customer_streaming(cu_id, customer_by_streaming_movies_dict, customer_by_
 
 if __name__ == '__main__':
 
-    # 1. Pull the data from source - Kaggle - endpoint API
 
     #  2. Generate the CSV - Pandas DataFrame - Done
     data = pd.read_csv(r'C:\Users\lokeeffe\Downloads\CustomerChurn.csv')
@@ -147,13 +146,12 @@ if __name__ == '__main__':
     plt.show()
     print("Done")
 
-    #  5. Slicing, loc or iloc
+    
 
-    # 6. looping, iterrows
-    #  7. Merge DataFrames
-    # 8. custom_function to create reusable code
-    # 9. Numpy
-    # 10. Dictionaries and lists
-    # 11. Seaborn, MatPlotLib (histogram, scatter plot)
-    # 12. Generate insight
+    
+    
+    
+    
+   
+    
 
