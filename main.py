@@ -12,7 +12,7 @@ def is_customer_streaming(cu_id, customer_by_streaming_movies_dict, customer_by_
 if __name__ == '__main__':
 
 
-    #  2. Generate the CSV - Pandas DataFrame - Done
+    #  2. Generate the CSV - Pandas DataFrame
     data = pd.read_csv(r'C:\Users\lokeeffe\Downloads\CustomerChurn.csv')
 
     customer_ids = list(data.customerID)
